@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "firesmelting",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -18,11 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tfar.example.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "firesmelting.mixins.json"
   ],
 
   "depends": {

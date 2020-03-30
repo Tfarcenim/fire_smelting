@@ -1,11 +1,11 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "tfar.firesmelting.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ItemEntityMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
